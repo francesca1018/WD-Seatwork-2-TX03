@@ -9,11 +9,11 @@
     <img src="https://pbs.twimg.com/media/Fc5cx5QaMAEtKxr.jpg:large" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Hewwo</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Hewwo(❁´◡`❁) (Optional)
 </div>
 
 <br />

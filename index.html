@@ -1,0 +1,74 @@
+// this is just testing ;w;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live2D Model</title>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    #particles-js {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        mix-blend-mode: luminosity;
+        background-color: #00000000;
+    }
+</style>
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.2/dist/browser/pixi.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/index.min.js"></script>
+</head>
+<body>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- particles.js library -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    
+<canvas id="canvas"></canvas>
+
+<script>
+  const cubism2Model =
+    "./Baby for demo.model3.json";
+  const cubism4Model =
+    "./Baby for demo.model3.json";
+
+  (async function main() {
+    const app = new PIXI.Application({
+      view: document.getElementById("canvas"),
+      autoStart: true,
+      resizeTo: window
+    });
+
+    const model2 = await PIXI.live2d.Live2DModel.from(cubism2Model);
+    const model4 = await PIXI.live2d.Live2DModel.from(cubism4Model);
+
+    app.stage.addChild(model2);
+    app.stage.addChild(model4);
+
+    model2.scale.set(0.3);
+    model4.scale.set(0.25);
+
+    model4.x = 300;
+  })();
+</script>
+<script>
+    particlesJS.load('particles-js', './particlesjs-config.json', function() {
+        console.log('particles.js loaded - configuration json loaded');
+    });
+</script>
+</body>
+</html>

@@ -68,7 +68,7 @@ Guiding Question:
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
+- Tis not yet done my braincells are done 
 - Parallax transition
 - Transactional
 

@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href = "assets/css/style.css">
+  <link rel="stylesheet" href = "assets/css/intropage.css">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script>
@@ -41,6 +43,12 @@
 
 <!-------------------BODY STARTS HERE-------------->
 <body>
+
+    <div class="intro-screen">
+        <h1 class="animate">Francesca Alcaraz</h1>
+    </div>
+
+
   <div class="border-overlay"></div>
 
 <!-- particles.js container -->
@@ -74,6 +82,11 @@ document.getElementById("placeholder").addEventListener("click", function() {
     audio.play();
 });
 </script>
+<script>
+    setTimeout(function() {
+        document.querySelector('.intro-screen').classList.add('fade-out');
+    }, 3000);
+</script>  
 
   <div id="myCarousel" class="carousel slide carousel-container" data-ride="carousel" data-interval="false">
     <!-- Indicators -->

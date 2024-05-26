@@ -61,22 +61,27 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+- A resume in a form of digital portfolio. It highlights my unique creativity and passion for creation. It additionally contains a few advanced implementations which shows my interest in exploring the technologies.
 - Whats the purpose
+- To advertise myself and showcase my stuff. 8w8
 - What are key components
+- A visual novel style chatbox (Peak mystic messenger inspired), A carousel, Cool buttons, GSAP's smooth scrolling very cool
 - What technology used and how it is used
+- AAAAAAAAAAAAAAAAA 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Tis not yet done my braincells are done 
-- Parallax transition
-- Transactional
+- Things to be fixed: Camel casing, external jss, Sourcing references, design
+- Things to be implemented: Guide questions ahh page or just remove it in general, Contacts page, Learn More page, Arts, Edit page, Guide question answers, Description of the project, Key components
 
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+![Live2D](https://img.shields.io/badge/Live2D-Live2dWebCanvas-blue)
 
 ## Rules and Principles
 1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.

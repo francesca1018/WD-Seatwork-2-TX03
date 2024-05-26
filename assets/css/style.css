@@ -79,7 +79,9 @@ html, body {
       color: #000000;
     right: 0;
     margin-right: 15%;
+      mix-blend-mode: exclusion;
     }
+
     .carousel-control.left, .carousel-control.right{ 
     background: none !important;
     filter: none !important;
@@ -207,6 +209,7 @@ html, body {
     }
 
     .description {
+      font-family: Candara, sans-serif;
       scale:1.25;
       margin-top: 60px;
       padding: 20px;
@@ -227,6 +230,8 @@ html, body {
     }
 
     .buttonReadmore {
+      font-weight: bold;
+      font-family: Candara, sans-serif;
       display: flex;
       justify-content: center;
       border-radius: 5%;
@@ -302,8 +307,10 @@ html, body {
   border-radius: 10px; /* Add rounded corners to match container */
 }
 
+
 .portfolio-container:hover {
-  transform: scale(1.05); /* Scale up slightly on hover */
+  transform: translateY(-10px); /* Move the container up slightly on hover */
+
 }
 
 .portfolio-container img {

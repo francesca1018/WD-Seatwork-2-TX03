@@ -36,6 +36,7 @@ body {
 
 @keyframes fadeInUp {
     0% {
+        top: 1;
         transform: translateY(-10%);
         opacity: 0;
     }
@@ -64,3 +65,4 @@ body {
 .intro-screen.fade-out +.main-content {
     display: block;
 }
+

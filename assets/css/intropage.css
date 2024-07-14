@@ -5,7 +5,7 @@ body {
 }
 /* For INTRO */
 .intro-screen {
-    font-family: 'Noto Serif JP', serif; 
+    font-family: 'Noto Serif JP', serif;
     z-index: 9999;
     position: absolute;
     top: 0;

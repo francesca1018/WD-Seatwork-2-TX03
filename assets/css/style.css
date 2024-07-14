@@ -38,9 +38,8 @@ html, body {
         z-index: 9999;
         pointer-events: none; /* Disable touch and mouse events */
         mix-blend-mode: luminosity;
-
-
     }
+
         /* Overlapping border styles */
         .border-overlay {
       position: fixed;
